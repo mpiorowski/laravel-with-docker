@@ -5,9 +5,19 @@ Simple application using laravel php framework with docker-compose for deploymen
 ## Deployment
 
 Configuration files:
+- app config : .env
 - php server : php/local.ini
 - nginx server : nginx/conf.d/app.conf
 - mysql database: mysql/my.cnf
+
+First install required packages for Laravel:
+```
+composer install
+```
+Then create application configuration file from exampled one. It already contains default database settings which are also located inside docker-compose file:
+```
+cp .env.example .env
+``` 
 
 Everything important is located inside docker-compose.yml file. 
 All that is need is to run docker-compose command:
