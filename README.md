@@ -51,7 +51,7 @@ Migrating: 2014_10_12_100000_create_password_resets_table
 Migrated:  2014_10_12_100000_create_password_resets_table
 ```
 
-To access the application, enter http://localhost. The home page for Laravel default app should appear. 
+To access the application, enter http://localhost. Home page for Laravel default app should appear. 
 
 
  

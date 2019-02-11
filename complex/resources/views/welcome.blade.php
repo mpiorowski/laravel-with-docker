@@ -83,6 +83,12 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
+                
+                @foreach ($links as $link)
+                <p>
+                    <a href="{{ $link->url }}">{{ $link->title }}</a>
+                </p>
+                @endforeach
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
