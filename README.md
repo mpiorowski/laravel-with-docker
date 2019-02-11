@@ -1,7 +1,9 @@
 # Laravel application set up for docker deployment
 
-The application is divided into two folders. 'Basic' contain barebone laravel app.  
-'Complex' contain app with a simple Link model, test data generator, form submision and test units.  
+The project is divided into two folders. 'Basic' contains barebone laravel app.  
+'Complex' contains app with a simple Link model, test data generator, form submision and test units.
+Docker deployment is the same for both app.
+
 ## Deployment
 
 Configuration files:
