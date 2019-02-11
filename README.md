@@ -38,7 +38,20 @@ Cache the settings:
 docker-compose exec app php artisan config:cache
 ```
 
-To access the application, enter http://localhost. The home page for Laravel default app should appear. 
+Check if the application is connected to the databse:
+```
+docker-compose exec app php artisan migrate
+```
+It should return something like this:
+```
+Migration table created successfully.
+Migrating: 2014_10_12_000000_create_users_table
+Migrated:  2014_10_12_000000_create_users_table
+Migrating: 2014_10_12_100000_create_password_resets_table
+Migrated:  2014_10_12_100000_create_password_resets_table
+```
+
+To access the application, enter http://localhost. Home page for Laravel default app should appear. 
 
 
  
