@@ -1,7 +1,7 @@
 # Laravel application set up for docker deployment
 
-Simple application using laravel php framework with docker-compose for deployment.
-
+The application is divided into two folders. 'Basic' contain barebone laravel app.  
+'Complex' contain app with a simple Link model, test data generator, form submision and test units.  
 ## Deployment
 
 Configuration files:
